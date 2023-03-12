@@ -1,0 +1,142 @@
+
+body{
+    font-family: 'Hanken Grotesk' , sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: hsl(221, 100%, 96%);
+}
+
+p{
+font-size: 18px;
+}
+
+
+.content{
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-evenly;
+    padding-top: 200px;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%); 
+    width: 800px;
+    height: 500px;
+    display: flex;
+    border-radius: 30px;
+}
+
+.card .result{
+    background-color: hsl(252, 100%, 67%);
+    width: 430px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+}
+
+.card .result .text{
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 40px;
+}
+
+.card .result .xof100{
+    background-color: hsla(256, 72%, 46%, 1);
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.xof100 .text1{
+    color: hsl(0, 0%, 100%);
+    font-size: 70px;
+}
+
+.xof100 .text2{
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+}
+
+.result .description .text1{
+    color:#ffffff;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.card .summary{
+    width: 470px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box{
+    padding: 13px;
+    display: flex;
+    border-radius: 10px;
+    justify-content:baseline;
+}
+
+.text3{
+    color:hsl(241, 100%, 89%);
+}
+
+.reaction{
+    background-color: hsla(0, 100%, 67%, 10%);
+}
+
+.reaction .text1{
+    color: hsl(0, 100%, 67%);
+    margin-right: 130px;
+}
+
+.memory{
+    background-color: hsl(39, 100%, 56%, 10%);
+}
+
+.memory .text1{
+    color: hsl(39, 100%, 56%);
+    margin-right: 132px;
+}
+
+.verbal{
+    background-color: hsl(166, 100%, 37%, 10%);
+}
+
+.verbal .text1{
+    color: hsl(166, 100%, 37%);
+    margin-right: 150px;
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%, 10%) ;
+}
+
+.visual .text1{
+    color: hsl(234, 85%, 45%);
+    margin-right: 155px;
+}
+
+.button{
+    background-color: hsl(224, 30%, 27%);
+    color:#ffffff;
+    font-size: 18px;
+    height: 60px;
+    width: 350px;
+    margin: 0 0;
+    border-radius: 50px;
+    border: none;
+} 
+
+.button.selected{
+    background-color: hsla(256, 72%, 46%, 1);
+}
